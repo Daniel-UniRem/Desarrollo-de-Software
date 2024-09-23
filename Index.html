@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia los responsables</title>
+    <link rel="stylesheet" href="indexx.css">
+</head>
+<body>
+    <header>
+        <h1>Farmacia los responsables</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h2>Bienvenido a Farmacia los responsables</h2>
+            <p>En nuestra farmacia, ofrecemos una amplia gama de productos de salud y bienestar. Explora nuestros productos a continuación.</p>
+        </section>
+
+      <section id="products" class="main-content">
+            <h2>Medicamentos</h2>
+            <input type="text" id="search-bar" placeholder="Buscar medicamento..." />
+            <div id="product-list">
+     
+            </div>
+        </section>
+
+
+        <section id="cart"> 
+            <h2>Tu carrito</h2>
+            <div id="cart-items"></div> 
+            <p id="cart-total"></p> 
+            <button id="checkout">Checkout</button>
+        </section>
+
+        <section id="checkout-section">
+            <h2>Dirección de envío</h2>
+            <form id="address-form">
+                <label for="address">Dirección:</label>
+                <input type="text" id="address" placeholder="Ingresa tu dirección" required />
+                <button type="submit">Guardar dirección</button>
+            </form>
+            <p id="saved-address"></p>
+        </section>
+
+
+        <section id="contact" class="main-content">
+            <h2>Contacto</h2>
+            <p>Teléfono: 3183186265</p>
+            <p>Email: dangus1995@hotmail.com</p>
+            <p>Dirección: Manizales, Caldas</p>
+        </section>
+
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Farmacia los responsables. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
